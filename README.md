@@ -13,6 +13,9 @@ This is the practice task of bash scripting  in my Ubuntu terminal
 - 03_var_websetup.sh: Simple Script written to download artifact, services, and deploy on to the websever by delaring variables. Varibales declared include; ```$PACKAGE```, ```$SVC```, ```$ART_NAME```, ```$TEMPDIR``` ```$URL```
 
 - 04_dismantle.sh: This script was written to destroy actions perform by 02_websetup.sh to enable proper execution of 03_var_websetup.sh from start to finish
+
+- 05_sysinfo.sh: Simple scripts written to prints simple system info; Partition, RAM and freespace. Its demostrate the usage of Command Substitution.
+
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
