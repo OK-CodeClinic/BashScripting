@@ -27,7 +27,7 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - 08_if_else_statement.sh: A simple ifvscript that takes input from user and execute a if/else block statement using simple aritmethic operator  ```-ge```
 
-- 09_if_elif_statement.sh: Simple script showing if/elif/else statment that is revealing a network interface found. This command ```ip addr show`` is piped ```ip addr show | grep -v LOOPBACK | grep -ic mtu ```. to display how many network interface are found on the linux server.
+- 09_if_elif_statement.sh: Simple script showing if/elif/else statment that is revealing a network interface found. This command ```ip addr show``` is piped ```ip addr show | grep -v LOOPBACK | grep -ic mtu```. to display how many network interface are found on the linux server.
 
 ### Aknowledgment
 
