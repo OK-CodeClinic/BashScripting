@@ -16,6 +16,11 @@ This is the practice task of bash scripting  in my Ubuntu terminal
 
 - 05_sysinfo.sh: Simple scripts written to prints simple system info; Partition, RAM and freespace. Its demostrate the usage of Command Substitution.
 
+- 06_UserInput.sh: A simple script that takes and execute user input using the command ```read```.
+ #### ```read``` options
+ -  ```read -p```: This prompt user to input something
+ -   ```read -s``` : Means suppress. ```read -sp``` is used to suppress or hide from display whatever user is prompted to input, and this is mostly used in the case of password.
+
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
