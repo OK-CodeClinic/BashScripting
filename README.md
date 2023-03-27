@@ -18,9 +18,9 @@ This is the practice task of bash scripting  in my Ubuntu terminal
 
 - 06_UserInput.sh: A simple script that takes and execute user input using the command ```read```.
 ```
-#### ```read``` options
- -  ```read -p```: This prompt user to input something
- -   ```read -s``` : Means suppress. ```read -sp``` is used to suppress or hide from display whatever user is prompted to input, and this is mostly used in the case of password.
+read options
+ -  read -p :  This prompt user to input something
+ -  read -s : Means suppress. Here, read -sp; is used to suppress or hide from display whatever user is prompted to input, and this is mostly used in the case of password.
 ```
 - 07_if_statement.sh: It is a simple if statement that takes input from the user and execute the if statment with a simple aritmethic operator ```-ge```
 
