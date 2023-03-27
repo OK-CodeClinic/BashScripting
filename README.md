@@ -21,6 +21,10 @@ This is the practice task of bash scripting  in my Ubuntu terminal
  -  ```read -p```: This prompt user to input something
  -   ```read -s``` : Means suppress. ```read -sp``` is used to suppress or hide from display whatever user is prompted to input, and this is mostly used in the case of password.
 
+- 07_if_statement.sh: It is a simple if statement that takes input from the user and execute the if statment with a simple aritmethic operator ```-ge```
+
+- 08_if_else_statement.sh: A simple ifvscript that takes input from user and execute a if/else block statement using simple aritmethic operator  ```-ge```
+
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
