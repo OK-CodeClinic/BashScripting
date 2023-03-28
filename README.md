@@ -39,7 +39,7 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - **14_while_loop.sh:** Scripts that shows available venues in numbers using while loop.
 
--**15_multiple_OS.sh:** Its a script that show demostration on remote execution. In this case, i have 3 Operating System; ```CentOS7```, ```CentOS8``` and ```Ubuntu18```. Installing dependencies, download artifact and run webserver on each OS. So, if statment is used. ```Sudo apt help``` was run, ```$?`` to check the exit status of the last command, so, if this was true it will run for Ubuntu18 and complete the process if false, it will run for CentOS7 and CentOS8.
+- **15_multiple_OS.sh:** Its a script that show demostration on remote execution. In this case, i have 3 Operating System; ```CentOS7```, ```CentOS8``` and ```Ubuntu18```. Installing dependencies, download artifact and run webserver on each OS. So, if statment is used. ```Sudo apt help``` was run, ```$?`` to check the exit status of the last command, so, if this was true it will run for Ubuntu18 and complete the process if false, it will run for CentOS7 and CentOS8.
 
 ### Aknowledgment
 
