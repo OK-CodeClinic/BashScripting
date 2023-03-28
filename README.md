@@ -25,7 +25,7 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 ```
 - **07_if_statement.sh:** It is a simple if statement that takes input from the user and execute the if statment with a simple aritmethic operator ```-ge```
 
-- **08_if_else_statement.sh:** A simple ifvscript that takes input from user and execute a if/else block statement using simple aritmethic operator  ```-ge```
+- **08_if_else_statement.sh:** A simple script executes if statment that takes input from user and execute a if/else block statement using simple aritmethic operator  ```-ge```
 
 - **09_if_elif_statement.sh:** Simple script showing if/elif/else statment that is revealing a network interface found. This command ```ip addr show``` is piped ```ip addr show | grep -v LOOPBACK | grep -ic mtu```. to display how many network interface are found on the linux server.
 
@@ -38,6 +38,9 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 - **13_for_loop_deluser.sh:** Script that delete users in a for loop. Here command ```userdel``` is used. In most Linux distributions, when removing a user account with ```userdel```, the user home and mail spool directories are not removed. So, i used ```userdel -r``` command.
 
 - **14_while_loop.sh:** Scripts that shows available venues in numbers using while loop.
+
+-**15_multiple_OS.sh:** Its a script that show demostration on remote execution. In this case, i have 3 Operating System; ```CentOS7```, ```CentOS8``` and ```Ubuntu18```. Installing dependencies, download artifact and run webserver on each OS. So, if statment is used. ```Sudo apt help``` was run, ```$?`` to check the exit status of the last command, so, if this was true it will run for Ubuntu18 and complete the process if false, it will run for CentOS7 and CentOS8.
+
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
