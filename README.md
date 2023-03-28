@@ -31,7 +31,7 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - **10_monit.sh:** Simple script that monitors the process of apache2 server, using a ```$? variable``` in a nested if/else conditions. If the condition is true the apache2 process run smoothly, and if not true it will start the process.
 
-**11_monit_test.sh:** Script that checks if apache2 is running or not. Here, Shell file test operator ```-f file``` is used to determine if ```/var/run/apache2/apache2.pid``` exist or not, it then starts apache2 if doesn't exist.
+- **11_monit_test.sh:** Script that checks if apache2 is running or not. Here, Shell file test operator ```-f file``` is used to determine if ```/var/run/apache2/apache2.pid``` exist or not, it then starts apache2 if doesn't exist.
 
 ### Aknowledgment
 
