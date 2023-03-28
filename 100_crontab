@@ -1,0 +1,4 @@
+# Crontab file to shedule how apache servers run
+
+
+* * * * * /opt/scripts/BashScripting/10_monit.sh &>> /var/log/monit_apache2.log
