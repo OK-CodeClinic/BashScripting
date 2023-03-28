@@ -41,6 +41,8 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - **15_multiple_OS.sh:** Its a script that show demostration on remote execution. In this case, i have 3 Operating System; ```CentOS7```, ```CentOS8``` and ```Ubuntu18```. Installing dependencies, download artifact and run webserver on each OS. So, if statment is used. ```Sudo apt help``` was run, ```$?`` to check the exit status of the last command, so, if this was true it will run for Ubuntu18 and complete the process if false, it will run for CentOS7 and CentOS8.
 
+- **16_webdeploy.sh:** Script that deploy 15_multiple_OS.sh to each of my linux server and run the scrit on each of them using if statement and ```scp``` command.
+
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
