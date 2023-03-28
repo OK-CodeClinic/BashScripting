@@ -33,9 +33,9 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - **11_monit_test.sh:** Script that checks if apache2 is running or not. Here, Shell file test operator ```-f file``` is used to determine if ```/var/run/apache2/apache2.pid``` exist or not, it then starts apache2 if doesn't exist.
 
-**12_for_loop_addusr.sh:** Script that add users using a for loop till all users are added succefully. Using the command ```useradd``` and diplay its id using ```id $usr```
+- **12_for_loop_addusr.sh:** Script that add users using a for loop till all users are added succefully. Using the command ```useradd``` and diplay its id using ```id $usr```
 
-**13_for_loop_deluser.sh:** Script that delete users in a for loop. Here command ```userdel``` is used. In most Linux distributions, when removing a user account with ```userdel```, the user home and mail spool directories are not removed. So, i used ```userdel -r``` command.
+- **13_for_loop_deluser.sh:** Script that delete users in a for loop. Here command ```userdel``` is used. In most Linux distributions, when removing a user account with ```userdel```, the user home and mail spool directories are not removed. So, i used ```userdel -r``` command.
 
 ### Aknowledgment
 
