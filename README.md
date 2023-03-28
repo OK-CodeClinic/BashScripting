@@ -37,6 +37,7 @@ Here, read -sp; is used to suppress or hide from display whatever user is prompt
 
 - **13_for_loop_deluser.sh:** Script that delete users in a for loop. Here command ```userdel``` is used. In most Linux distributions, when removing a user account with ```userdel```, the user home and mail spool directories are not removed. So, i used ```userdel -r``` command.
 
+- **14_while_loop.sh:** Scripts that shows available venues in numbers using while loop.
 ### Aknowledgment
 
 All artifact are downloaded from www.tootemplate.com
